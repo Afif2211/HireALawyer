@@ -1,0 +1,134 @@
+.customer-register-container {
+    border: 2px solid hsl(205, 78%, 60%);
+    height: 94vh;
+    width: 69vw;
+    margin-left: 12rem;
+    margin-top: 4rem;
+    margin-bottom: 19rem;
+    /* position: relative; */
+    border-radius: 10px;
+    
+    /* align-items: center; */
+}
+.textLogoContainer {
+    margin: 2rem;
+}
+
+.logoText {
+    color: hsl(205, 78%, 60%);
+    font-weight: normal;
+}
+
+.customer-details-container {
+    /* border: 2px solid rebeccapurple; */
+    height: 50vh;
+    margin: 2rem;
+}
+
+.form-container-registration-customer {
+    /* border: 2px solid yellow; */
+    /* margin: 2rem; */
+    margin-left: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(2, 30rem);
+}
+
+.customer-details-control {
+    /* display: inline; */
+    font-size: 1rem;
+    /* border: 2px solid red; */
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+}
+
+
+.inputControl-customer {
+    width: 17vw;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    /* border: 2px solid red; */
+    padding: 5px;
+    font-size: 1rem;
+    /* margin: 5px 0; */
+}
+
+.inputControl-customer:focus {
+    outline: none;
+}
+
+.cnicLabel {
+    margin-top: 10px;
+}
+
+.create-customer-account {
+    background-color:  hsl(205, 78%, 60%);
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45vw;
+    position: absolute;
+    left: 23rem;
+    /*bottom: 40px;*/
+  
+    /* margin: 2rem; */
+    /* margin-left: 13rem; */
+    margin-top: 28rem;
+    border-radius: 10px;
+}
+
+.create-customer-account:hover {
+    background-color: hsl(205, 78%, 33%);
+}
+
+.tickText {
+    margin-bottom: 2rem;
+}
+@media (max-width:420px) {
+    .form-container-registration-customer {
+        grid-template-rows: none;
+        grid-template-columns: repeat(2, 17rem);
+        /* overflow-x: scroll;
+  overflow-y: hidden; */
+    }
+
+    .customer-register-container {
+        
+        height: 60vh;
+        margin-left: 8rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+        /* align-items: center; */
+    }
+    .create-customer-account {
+        
+        left: 15rem;
+        top: 27rem;
+    }
+    .inputControl-customer {
+        width: 17vw;
+        margin-top: 1rem;
+        /* margin-bottom: 30px; */
+        /* border: 2px solid red; */
+        padding: 5px;
+        /* font-size: 5rem; */
+        /* margin: 5px 0; */
+    }
+    
+    .inputControl-customer:focus {
+        outline: none;
+    }
+    .customer-details-control {
+        /* display: inline; */
+        /* font-size: 1rem; */
+        /* border: 2px solid red; */
+        /* margin: 1rem; */
+        /* padding: 1rem; */
+        margin-top: 2rem;
+    }
+
+}

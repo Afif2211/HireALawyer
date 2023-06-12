@@ -1,0 +1,32 @@
+.card_case {
+    background-color: rgb(243, 246, 250);
+     border-radius: 5px;
+     width: 65rem;
+     height: 20rem;
+     margin: 5rem;
+     padding: 10px;
+   }
+   .card_case{  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2)}
+   .card_case:hover{
+     box-shadow: 7px 7px 7px 7px grey;
+     }
+   .card_case img{
+     width: 10rem;
+     border-radius: 5px;
+   }
+   .img_case img{
+     width: 5rem;
+   }
+   
+   .card-description_case {
+     padding: 10px;
+   }
+   
+   .card-description h3 {
+     margin: 0;
+   }
+   
+   .card-description p {
+     margin: 5px 0;
+   }
+   

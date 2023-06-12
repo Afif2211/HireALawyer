@@ -1,0 +1,119 @@
+.lawyer-register-container-cases {
+    border: 2px solid hsl(205, 78%, 60%);
+    height: 40rem;
+    width: 85%;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 19rem;
+    /* position: relative; */
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+
+.textLogoContainer-cases {
+    margin: 2rem;
+}
+
+.logoText-cases {
+    color: hsl(205, 78%, 60%);
+    font-weight: normal;
+}
+
+.lawyer-details-container-cases {
+    /* border: 2px solid rebeccapurple; */
+    height: 60vh;
+    margin: 2rem;
+}
+
+.form-container-registration-cases {
+    /* border: 2px solid yellow; */
+    margin: 2rem;
+    display: grid;
+    grid-template-rows: repeat(6, 8rem);
+    grid-template-columns: repeat(3, 22rem);
+    position: relative;
+}
+
+.lawyer-details-control-cases {
+    /* display: inline; */
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+}
+
+
+.inputControl-cases {
+    width: 17vw;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    /* border: 2px solid red; */
+    padding: 5px;
+    font-size: 1.2rem;
+    /* margin: 5px 0; */
+}
+
+.inputControl-cases:focus {
+    outline: none;
+}
+
+.cnicLabel-cases {
+    margin-top: 10px;
+}
+
+.create-lawyer-account-cases {
+    background-color:  hsl(205, 78%, 60%);
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 67vw;
+    height: 8vh;
+    /* margin: 2rem; */
+    margin-left: 4rem;
+    /* margin-top: 5rem; */
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1.25rem;
+    
+}
+
+.create-lawyer-account-cases:hover {
+    background-color: hsl(205, 78%, 33%);
+}
+
+.tickText-cases {
+    margin-bottom: 2rem;
+}
+
+.create-account-btn-container-cases {
+    position: absolute;
+    
+}
+
+@media (max-width:420px) {
+
+    .form-container-registration-cases {
+        /* border: 2px solid yellow; */
+        /* margin: 8rem; */
+        display: grid;
+        grid-template-columns: repeat(2, 17rem);
+        position: relative;
+    }
+    .create-lawyer-account-cases {
+       
+        width: 64vw;
+        height: 6vh;
+        /* margin: 2rem; */
+    
+        bottom: 1.25rem;
+    }
+
+    .lawyer-register-container-cases {
+       margin-left: 2rem;
+        height: 90vh;}
+
+}
